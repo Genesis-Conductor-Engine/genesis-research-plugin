@@ -1,0 +1,15 @@
+---
+description: Keep Genesis Conductor research claims labelled FACT or CLAIM and block known false attributions.
+alwaysApply: false
+globs:
+  - "**/research-packet/**"
+  - "**/launch/**"
+---
+
+## Evidence labels for Genesis Conductor research
+
+- Every factual statement about packet artifacts carries FACT (observable: DOI, HTTP 200, code/tests) or CLAIM (asserted, unreproduced).
+- No NSF CAIG / NSF / EU funding attribution to Igor Holt.
+- No Delta Truth divergence or consensus figures presented as measurements.
+- No partner, customer, or endorsement claims unless a signed source is in the packet.
+- Prefer linking a DOI or repo over paraphrasing results.

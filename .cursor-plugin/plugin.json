@@ -1,0 +1,27 @@
+{
+  "name": "genesis-research",
+  "displayName": "Genesis Research",
+  "version": "0.1.1",
+  "description": "Semantic search, peer-aware citation, and a human-gated publish pipeline over the Genesis Conductor research packet, served from retrieval.genesisconductor.io over MCP.",
+  "author": {
+    "name": "Igor A. Holt",
+    "url": "https://orcid.org/0009-0008-8389-1297"
+  },
+  "homepage": "https://genesisconductor.io",
+  "repository": "https://github.com/Genesis-Conductor-Engine/genesis-research-plugin",
+  "license": "MIT",
+  "logo": "assets/icon.svg",
+  "keywords": [
+    "research",
+    "retrieval",
+    "rag",
+    "mcp",
+    "citations",
+    "embeddinggemma",
+    "cloudflare-workers",
+    "publishing",
+    "genesis-conductor"
+  ],
+  "category": "research",
+  "mcpServers": "./mcp.json"
+}

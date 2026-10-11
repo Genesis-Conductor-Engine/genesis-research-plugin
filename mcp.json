@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "genesis-research": {
+      "type": "http",
+      "url": "https://retrieval.genesisconductor.io/mcp",
+      "headers": {
+        "Authorization": "Bearer ${env:RESEARCH_RETRIEVAL_KEY}"
+      }
+    }
+  }
+}
